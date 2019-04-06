@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Elbow Butt</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="stylesheet" type="text/css" href="src/lib/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="src/lib/slick/slick-theme.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="main-head">Elbow Butt</header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="">Film Festival</a></li>
+                <li><a href="">Fruit Pizza</a></li>
+                <li><a href="">Roller Derby</a></li>
+            </ul>
+        </nav>
+        <article class="content">
+            <div class="your-class">
+                <div>
+                    <img src="/assets/fruit-pizza.jpeg">
+                </div>
+                <div>
+                    <img src="/assets/film-fest-flyer-optim.jpg">
+                </div>
+            </div>
+        </article>
+        <aside class="side">Sidebar</aside>
+        <div class="ad">Advertising</div>
+        <footer class="main-footer">The footer</footer>
+    </div>
+    <script type="text/javascript" src="src/lib/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="src/lib/slick/slick.min.js"></script>
+    <script src="src/main.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('.your-class').slick({
+              autoplay: true,
+              autoplaySpeed: 3000,
+              arrows: false
+          });
+        });
+      </script>
+</body>
+
+</html>
